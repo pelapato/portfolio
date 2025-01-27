@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./solicitar.css"/>
+    <link rel="icon" type="image/x-icon" href="./src/imagens/favicon-removebg-preview.png">
+</head>
+<body>
+    <form action="https://formsubmit.co/jhonbest170@gmail.com" method="POST">
+        <p>Entre em contato &#x1F91D;</p>
+        <hr>
+        <label for="nome">
+            Seu nome
+        </label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required>
+        <label for="email">
+            Digite seu email
+        </label>
+        <input type="email" name="email" placeholder="Digite seu e-mail" id="email" required>
+        <textarea name="message" placeholder="Deixe sua mensagen" rows="9" required></textarea>
+        <button type="submit">enviar</button>
+
+        <input type="hidden" name="_subject" value="Novo Contato!">
+        <input type="text" name="_honey" style="display:none;">
+        <input type="hidden" name="_captcha" value="false">
+    </form>
+</body>
+</html>
